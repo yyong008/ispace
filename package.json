@@ -1,0 +1,25 @@
+{
+  "name": "ispace",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "vite",
+    "lib:dev": "tsup ./libs/space/index.tsx --watch",
+    "build": "tsup src/index.tsx"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.0",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^6.6.3",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  },
+  "files": [
+    "dist/"
+  ]
+}
